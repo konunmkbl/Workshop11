@@ -3,4 +3,5 @@ scikit-learn==1.2.2
 xgboost
 pandas
 matplotlib
+seaborn
  
