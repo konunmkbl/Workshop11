@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
 
 # Load model and encoders
-with open('model_kpi.pkl', 'rb') as file:
+with open('model_kpi-65130701917.pkl', 'rb') as file:
     model, department_encoder, region_encoder, education_encoder, gender_encoder, recruitment_channel_encoder = pickle.load(file)
 
 # Load your DataFrame
